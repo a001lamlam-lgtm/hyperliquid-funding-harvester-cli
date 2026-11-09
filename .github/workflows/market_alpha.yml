@@ -1,0 +1,64 @@
+name: Update Market Alpha & Yields
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Every 6 hours
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  update-alpha:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Harvester & Radar Scan
+        run: |
+          python3 hyperliquid_harvester.py > latest_funding.md
+          python3 solana_base_radar.py > latest_radar.md
+          
+          cat << 'EOF' > LATEST_MARKET_ALPHA.md
+          # ⚡ LIVE ON-CHAIN MARKET ALPHA & ARBITRAGE FEEDS
+
+          *Automated quantitative scanning powered by [Heo đi bộ](https://github.com/a001lamlam-lgtm/hyperliquid-funding-harvester-cli)*
+
+          ---
+
+          EOF
+          
+          cat latest_funding.md >> LATEST_MARKET_ALPHA.md
+          echo -e "\n---\n" >> LATEST_MARKET_ALPHA.md
+          cat latest_radar.md >> LATEST_MARKET_ALPHA.md
+          
+          cat << 'EOF' >> LATEST_MARKET_ALPHA.md
+
+          ---
+
+          ## 🪙 Support / Tips / Sponsor Wallets
+          If you profit from this automated alpha or use these scripts in production, donations to keep our compute nodes running are greatly appreciated!
+          - **EVM (Base / Arbitrum / Polygon / Hyperliquid / ETH)**: `0xb583a09D4358Dd8A992F219328342BabeEb5751C`
+          - **Solana (SOL / USDC)**: `5nDKyxqUvRUrSLzhviHDBQb9hoh7ZbzhL6ASDdFKdCXv`
+          EOF
+
+          rm latest_funding.md latest_radar.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add LATEST_MARKET_ALPHA.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore(alpha): update live funding rates and DEX momentum radar"
+            git push
+          fi

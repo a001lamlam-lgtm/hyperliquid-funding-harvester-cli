@@ -19,13 +19,16 @@ An autonomous, zero-dependency Python quant engine designed to monitor 230+ perp
 
 ---
 
-## 📊 Live Market Scans (Preview)
+## 📊 Live Market Scans & Alpha Feed
+
+Check our automated 6-hour on-chain feed:
+👉 **[View Latest Market Alpha & Arbitrage Dispersions (Updated 24/7)](LATEST_MARKET_ALPHA.md)**
 
 | Asset | Annualized APR | Hourly Rate | Directional Strategy |
 | :--- | :--- | :--- | :--- |
-| **XMR** | **+118.3%** | +0.0135% / hr | 🟢 Short Perp (Collect Hourly Funding) |
-| **INIT** | **-1436.0%** | -0.1639% / hr | 🔵 Long Perp (Collect Hourly Funding) |
-| **MEME** | **-151.2%** | -0.0173% / hr | 🔵 Long Perp (Collect Hourly Funding) |
+| **XMR** | **+103.3%** | +0.0118% / hr | 🟢 Short Perp (Collect Hourly Funding) |
+| **INIT** | **-1842.1%** | -0.2103% / hr | 🔵 Long Perp (Collect Hourly Funding) |
+| **MEME** | **-131.1%** | -0.0150% / hr | 🔵 Long Perp (Collect Hourly Funding) |
 
 ---
 
