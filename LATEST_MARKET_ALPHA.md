@@ -5,33 +5,33 @@
 ---
 
 # HYPERLIQUID REAL-TIME FUNDING YIELD REPORT ⚡
-*Cập nhật tự động lúc 2026-11-25 16:32:51 - Heo đi bộ Quant Engine*
+*Cập nhật tự động lúc 2026-11-26 01:22:04 - Heo đi bộ Quant Engine*
 
 | Tài sản | APR Hàng Năm | Lãi Giờ (Hourly) | Giá Oracle | Volume 24h | Chiến lược Thu Tiền |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **BIGTIME** | **-3559.4%** | -0.4063% | $0.01 | $8,527,701 | 🔵 LONG PERP (Nhận lãi) |
-| **ACE** | **-759.4%** | -0.0867% | $0.07 | $929,326 | 🔵 LONG PERP (Nhận lãi) |
-| **LAYER** | **-323.1%** | -0.0369% | $0.04 | $366,491 | 🔵 LONG PERP (Nhận lãi) |
-| **RUNE** | **-212.7%** | -0.0243% | $0.51 | $335,729 | 🔵 LONG PERP (Nhận lãi) |
-| **MOODENG** | **-195.0%** | -0.0223% | $0.03 | $1,947,948 | 🔵 LONG PERP (Nhận lãi) |
-| **kLUNC** | **-167.4%** | -0.0191% | $0.04 | $1,132,613 | 🔵 LONG PERP (Nhận lãi) |
-| **BLUR** | **-104.9%** | -0.0120% | $0.01 | $2,005,464 | 🔵 LONG PERP (Nhận lãi) |
-| **INIT** | **-86.2%** | -0.0098% | $0.09 | $951,815 | 🔵 LONG PERP (Nhận lãi) |
-| **kPEPE** | **-72.8%** | -0.0083% | $0.00 | $8,543,187 | 🔵 LONG PERP (Nhận lãi) |
-| **MNT** | **-68.7%** | -0.0078% | $0.35 | $583,331 | 🔵 LONG PERP (Nhận lãi) |
+| **MOVE** | **-3798.8%** | -0.4337% | $0.01 | $844,134 | 🔵 LONG PERP (Nhận lãi) |
+| **BIGTIME** | **-2381.7%** | -0.2719% | $0.01 | $10,844,850 | 🔵 LONG PERP (Nhận lãi) |
+| **LAYER** | **-859.8%** | -0.0982% | $0.05 | $470,036 | 🔵 LONG PERP (Nhận lãi) |
+| **ACE** | **-544.4%** | -0.0621% | $0.07 | $467,692 | 🔵 LONG PERP (Nhận lãi) |
+| **INIT** | **-528.3%** | -0.0603% | $0.09 | $801,630 | 🔵 LONG PERP (Nhận lãi) |
+| **MELANIA** | **-181.2%** | -0.0207% | $0.05 | $865,888 | 🔵 LONG PERP (Nhận lãi) |
+| **kLUNC** | **-176.9%** | -0.0202% | $0.05 | $760,245 | 🔵 LONG PERP (Nhận lãi) |
+| **ANIME** | **-143.5%** | -0.0164% | $0.00 | $294,864 | 🔵 LONG PERP (Nhận lãi) |
+| **CC** | **-123.2%** | -0.0141% | $0.08 | $507,191 | 🔵 LONG PERP (Nhận lãi) |
+| **BERA** | **-102.0%** | -0.0116% | $0.08 | $288,041 | 🔵 LONG PERP (Nhận lãi) |
 
 
 ---
 
 # SOLANA & BASE REAL-TIME ALPHA RADAR 🛰️
-*Cập nhật tự động lúc 2026-11-25 16:32:51 - Heo đi bộ Radar*
+*Cập nhật tự động lúc 2026-11-26 01:22:04 - Heo đi bộ Radar*
 
 | Mạng | Cặp Giao Dịch | Giá USD | Biến động 1h | Vol 1h | Vol 24h | Thanh khoản |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **SOLANA** | [SOL/USDC](https://dexscreener.com/solana/eocz7h8fzvbhiwg9exzzqgn6nia3msn1rs3ugyadf1zi) | $104.3500 | 🔴 0.0% | $0 | $407,736 | $2,191,052,576 |
-| **SOLANA** | [SOL/USDC](https://dexscreener.com/solana/7dyvdkbhq5zgejnhvbbdnvhbfojegrf46egedaoht6hu) | $76.0640 | 🔴 0.0% | $0 | $140,792 | $1,597,167,505 |
-| **SOLANA** | [SOL/USDC](https://dexscreener.com/solana/fqqkcjycqgmpk67yonsvhfwqkeb3bguugkxe3fbr7pzk) | $77.4900 | 🔴 0.0% | $0 | $140,772 | $1,627,150,145 |
-| **BASE** | [ETH/USDC](https://dexscreener.com/base/0x96d4b53a38337a5733179751781178a2613306063c511b78cd02684739288c0a) | $1,643.3900 | 🟢 +0.82% | $60,760 | $582,608 | $459,752 |
+| **SOLANA** | [Solana/USDC](https://dexscreener.com/solana/35afe6fhr7cnblje5ma8c93yj2pkrurctyv2gvvtaack) | $74.2300 | 🔴 0.0% | $77,042 | $437,304 | $1,558,700,561 |
+| **SOLANA** | [SOL/USDC](https://dexscreener.com/solana/eocz7h8fzvbhiwg9exzzqgn6nia3msn1rs3ugyadf1zi) | $104.3500 | 🔴 0.0% | $42,398 | $399,518 | $2,191,052,577 |
+| **SOLANA** | [SOL/USDC](https://dexscreener.com/solana/fqqkcjycqgmpk67yonsvhfwqkeb3bguugkxe3fbr7pzk) | $77.4900 | 🔴 0.0% | $17,089 | $125,249 | $1,627,150,150 |
+| **SOLANA** | [SOL/USDC](https://dexscreener.com/solana/7dyvdkbhq5zgejnhvbbdnvhbfojegrf46egedaoht6hu) | $76.0640 | 🔴 0.0% | $0 | $125,252 | $1,597,167,511 |
 
 
 ---
